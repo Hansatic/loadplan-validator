@@ -90,4 +90,24 @@ Known limits, disclosed:
 
 ## Licence
 
-All rights reserved, Hansatic. Licence terms to follow. For research or commercial use in the meantime, write to us via hansatic.com.
+**PolyForm Noncommercial License 1.0.0.** Full text in [LICENSE.md](LICENSE.md). It covers everything in this repository: the validator, the CLI, the tests and the r10 data.
+
+Copyright Hansatic (https://hansatic.com).
+
+**Free, no need to ask:**
+
+- Academic and non-profit research, including published papers and benchmarks
+- Personal study, experiments and testing
+- Use by universities, public research institutes, charities and government bodies
+
+**Needs a commercial licence from Hansatic:**
+
+- Use inside a company, including evaluating your own models or products
+- Building it into a product, service, API or internal tool
+- Selling, hosting or offering it as part of paid work
+
+For a commercial licence, contact us via [hansatic.com](https://hansatic.com).
+
+If you share a copy or a modified version, include LICENSE.md (or the licence URL) and the line `Required Notice: Copyright Hansatic (https://hansatic.com)`.
+
+**Citing:** if you publish results judged with this validator, please name the validator version (`VERSION` in validate.mjs) and link this repository.
