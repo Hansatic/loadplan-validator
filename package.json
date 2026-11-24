@@ -1,0 +1,16 @@
+{
+  "name": "@hansatic/loadplan-validator",
+  "version": "2.3.0",
+  "description": "Judges a 3D load plan (container, truck, air ULD, pallet) against the rules of the Hansatic load-planning benchmark. One file, no dependencies.",
+  "private": true,
+  "type": "module",
+  "main": "validate.mjs",
+  "exports": "./validate.mjs",
+  "bin": { "loadplan-validate": "bin/cli.mjs" },
+  "files": ["validate.mjs", "bin/", "README.md"],
+  "scripts": {
+    "test": "node test/fixtures.mjs && node verify-r10.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "homepage": "https://hansatic.com/en/neuro-symbolic-load-planning"
+}
