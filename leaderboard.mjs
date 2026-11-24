@@ -128,6 +128,20 @@ const a = readme.indexOf(START), b = readme.indexOf(END);
 if (a < 0 || b < a) { console.error('README.md has no leaderboard markers'); process.exit(2); }
 const next = `${readme.slice(0, a + START.length)}\n${board}\n${readme.slice(b)}`;
 
+// The same board as data, for the Hugging Face Space and anyone else who wants it.
+const JSON_OUT = new URL('leaderboard.json', here);
+const json = JSON.stringify({
+	release: 'r10', validator: VERSION, support_pct: 95, scored_runs: N, total_runs: runs.length,
+	runs: SCORED.map((r) => ({ key: r.key, case_id: r.case_id, objective: r.objective })),
+	entrants: ranked.map((e, i) => ({
+		rank: i + 1, name: e.name, source: e.source, submitted_by: e.by ?? 'Hansatic', link: e.link ?? null,
+		date: e.date, prompt: e.prompt, legal: e.legal, answered: e.answered, placed: e.placed,
+		vs_engine: e.source === 'reference' ? null : { w: e.w, t: e.t, l: e.l },
+		cells: Object.fromEntries(SCORED.map((r) => [r.key, cell(e.scores[r.key], r.objective)])),
+	})),
+}, null, 1) + '\n';
+const jsonNow = existsSync(JSON_OUT) ? readFileSync(JSON_OUT, 'utf8') : '';
+
 for (const e of entrants.filter((x) => x.source === 'community')) {
 	console.log(`${e.folder}: ${e.legal}/${N} legal, ${e.answered}/${N} answered, vs engine ${e.w}/${e.t}/${e.l}`);
 	for (const r of SCORED) if (e.scores[r.key].answered && !e.scores[r.key].legal) console.log(`  ${r.key}: illegal (${e.scores[r.key].why})`);
@@ -135,8 +149,10 @@ for (const e of entrants.filter((x) => x.source === 'community')) {
 if (errors.length) { for (const m of errors) console.error(`ERROR ${m}`); process.exit(1); }
 if (process.argv.includes('--check')) {
 	if (next.replace(/\r\n/g, '\n') !== readme.replace(/\r\n/g, '\n')) { console.error('README.md leaderboard is out of date: run `node leaderboard.mjs` and commit README.md'); process.exit(1); }
+	if (json !== jsonNow.replace(/\r\n/g, '\n')) { console.error('leaderboard.json is out of date: run `node leaderboard.mjs` and commit leaderboard.json'); process.exit(1); }
 	console.log(`leaderboard up to date: ${entrants.length} entrants`);
 } else {
 	writeFileSync(README, next);
+	writeFileSync(JSON_OUT, json);
 	console.log(`leaderboard written: ${entrants.length} entrants`);
 }

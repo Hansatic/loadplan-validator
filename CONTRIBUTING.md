@@ -48,7 +48,7 @@ node leaderboard.mjs     # prints your verdicts and rewrites the table in README
 npm test                 # what CI runs
 ```
 
-Commit your folder and the updated `README.md`, then open a pull request. CI fails if a file is malformed or if `README.md` does not match what `leaderboard.mjs` produces.
+Commit your folder, the updated `README.md` and `leaderboard.json`, then open a pull request. CI fails if a file is malformed or if `README.md` does not match what `leaderboard.mjs` produces.
 
 ## What gets merged
 

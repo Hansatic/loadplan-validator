@@ -1,0 +1,458 @@
+{
+ "release": "r10",
+ "validator": "2.3.0",
+ "support_pct": 95,
+ "scored_runs": 20,
+ "total_runs": 26,
+ "runs": [
+  {
+   "key": "H01-ldm",
+   "case_id": "H01",
+   "objective": "ldm"
+  },
+  {
+   "key": "H02-ldm",
+   "case_id": "H02",
+   "objective": "ldm"
+  },
+  {
+   "key": "H03-ldm",
+   "case_id": "H03",
+   "objective": "ldm"
+  },
+  {
+   "key": "H04-ldm",
+   "case_id": "H04",
+   "objective": "ldm"
+  },
+  {
+   "key": "H05-ldm",
+   "case_id": "H05",
+   "objective": "ldm"
+  },
+  {
+   "key": "H06-ldm",
+   "case_id": "H06",
+   "objective": "ldm"
+  },
+  {
+   "key": "H07-ldm",
+   "case_id": "H07",
+   "objective": "ldm"
+  },
+  {
+   "key": "H08-ldm",
+   "case_id": "H08",
+   "objective": "ldm"
+  },
+  {
+   "key": "H09-ldm",
+   "case_id": "H09",
+   "objective": "ldm"
+  },
+  {
+   "key": "H10-ldm",
+   "case_id": "H10",
+   "objective": "ldm"
+  },
+  {
+   "key": "H11-ldm",
+   "case_id": "H11",
+   "objective": "ldm"
+  },
+  {
+   "key": "H12-ldm",
+   "case_id": "H12",
+   "objective": "ldm"
+  },
+  {
+   "key": "BV1-ldm",
+   "case_id": "BV1",
+   "objective": "ldm"
+  },
+  {
+   "key": "BV2-ldm",
+   "case_id": "BV2",
+   "objective": "ldm"
+  },
+  {
+   "key": "BV3-ldm",
+   "case_id": "BV3",
+   "objective": "ldm"
+  },
+  {
+   "key": "BV4-ldm",
+   "case_id": "BV4",
+   "objective": "ldm"
+  },
+  {
+   "key": "BV5-ldm",
+   "case_id": "BV5",
+   "objective": "ldm"
+  },
+  {
+   "key": "BV6-ldm",
+   "case_id": "BV6",
+   "objective": "ldm"
+  },
+  {
+   "key": "U01-count",
+   "case_id": "U01",
+   "objective": "count"
+  },
+  {
+   "key": "P01-interlock",
+   "case_id": "P01",
+   "objective": "interlock"
+  }
+ ],
+ "entrants": [
+  {
+   "rank": 1,
+   "name": "Hansatic engine",
+   "source": "reference",
+   "submitted_by": "Hansatic",
+   "link": null,
+   "date": "2026-11-20",
+   "prompt": "standard",
+   "legal": 20,
+   "answered": 20,
+   "placed": 1395,
+   "vs_engine": null,
+   "cells": {
+    "H01-ldm": "26 · 11.69 m",
+    "H02-ldm": "24 · 5.78 m",
+    "H03-ldm": "31 · 10.51 m",
+    "H04-ldm": "39 · 10.44 m",
+    "H05-ldm": "49 · 12.40 m",
+    "H06-ldm": "83 · 10.65 m",
+    "H07-ldm": "45 · 9.60 m",
+    "H08-ldm": "52 · 5.92 m",
+    "H09-ldm": "29 · 13.36 m",
+    "H10-ldm": "26 · 12.20 m",
+    "H11-ldm": "23 · 12.00 m",
+    "H12-ldm": "13 · 11.00 m",
+    "BV1-ldm": "103 · 9.17 m",
+    "BV2-ldm": "153 · 11.52 m",
+    "BV3-ldm": "119 · 6.83 m",
+    "BV4-ldm": "145 · 8.57 m",
+    "BV5-ldm": "127 · 12.00 m",
+    "BV6-ldm": "244 · 11.98 m",
+    "U01-count": "24 placed",
+    "P01-interlock": "40 · 100 %"
+   }
+  },
+  {
+   "rank": 2,
+   "name": "GPT-5.5",
+   "source": "official",
+   "submitted_by": "Hansatic",
+   "link": null,
+   "date": "2026-11-11",
+   "prompt": "standard",
+   "legal": 19,
+   "answered": 19,
+   "placed": 1318,
+   "vs_engine": {
+    "w": 0,
+    "t": 3,
+    "l": 17
+   },
+   "cells": {
+    "H01-ldm": "25 · 11.88 m",
+    "H02-ldm": "18 · 5.76 m",
+    "H03-ldm": "-",
+    "H04-ldm": "39 · 10.72 m",
+    "H05-ldm": "45 · 13.28 m",
+    "H06-ldm": "83 · 11.78 m",
+    "H07-ldm": "45 · 9.60 m",
+    "H08-ldm": "52 · 6.26 m",
+    "H09-ldm": "29 · 13.56 m",
+    "H10-ldm": "26 · 12.20 m",
+    "H11-ldm": "23 · 12.42 m",
+    "H12-ldm": "13 · 11.40 m",
+    "BV1-ldm": "92 · 8.27 m",
+    "BV2-ldm": "153 · 13.14 m",
+    "BV3-ldm": "119 · 9.14 m",
+    "BV4-ldm": "145 · 11.96 m",
+    "BV5-ldm": "115 · 11.73 m",
+    "BV6-ldm": "238 · 11.97 m",
+    "U01-count": "18 placed",
+    "P01-interlock": "40 · 100 %"
+   }
+  },
+  {
+   "rank": 3,
+   "name": "Grok 4.7",
+   "source": "official",
+   "submitted_by": "Hansatic",
+   "link": null,
+   "date": "2026-11-11",
+   "prompt": "standard",
+   "legal": 16,
+   "answered": 18,
+   "placed": 1237,
+   "vs_engine": {
+    "w": 0,
+    "t": 3,
+    "l": 17
+   },
+   "cells": {
+    "H01-ldm": "25 · 11.37 m",
+    "H02-ldm": "-",
+    "H03-ldm": "illegal",
+    "H04-ldm": "39 · 11.10 m",
+    "H05-ldm": "43 · 12.96 m",
+    "H06-ldm": "83 · 11.41 m",
+    "H07-ldm": "illegal",
+    "H08-ldm": "52 · 6.18 m",
+    "H09-ldm": "29 · 13.60 m",
+    "H10-ldm": "26 · 12.20 m",
+    "H11-ldm": "23 · 12.62 m",
+    "H12-ldm": "-",
+    "BV1-ldm": "103 · 10.66 m",
+    "BV2-ldm": "153 · 12.30 m",
+    "BV3-ldm": "119 · 8.10 m",
+    "BV4-ldm": "145 · 8.85 m",
+    "BV5-ldm": "115 · 11.87 m",
+    "BV6-ldm": "218 · 11.98 m",
+    "U01-count": "24 placed",
+    "P01-interlock": "40 · 100 %"
+   }
+  },
+  {
+   "rank": 4,
+   "name": "Opus 5.5",
+   "source": "official",
+   "submitted_by": "Hansatic",
+   "link": null,
+   "date": "2026-11-11",
+   "prompt": "standard",
+   "legal": 14,
+   "answered": 14,
+   "placed": 762,
+   "vs_engine": {
+    "w": 0,
+    "t": 6,
+    "l": 14
+   },
+   "cells": {
+    "H01-ldm": "26 · 11.74 m",
+    "H02-ldm": "-",
+    "H03-ldm": "-",
+    "H04-ldm": "39 · 10.44 m",
+    "H05-ldm": "49 · 12.40 m",
+    "H06-ldm": "-",
+    "H07-ldm": "45 · 9.61 m",
+    "H08-ldm": "52 · 6.20 m",
+    "H09-ldm": "29 · 13.60 m",
+    "H10-ldm": "26 · 12.20 m",
+    "H11-ldm": "23 · 12.20 m",
+    "H12-ldm": "13 · 11.00 m",
+    "BV1-ldm": "-",
+    "BV2-ldm": "153 · 11.78 m",
+    "BV3-ldm": "119 · 6.99 m",
+    "BV4-ldm": "-",
+    "BV5-ldm": "124 · 11.77 m",
+    "BV6-ldm": "-",
+    "U01-count": "24 placed",
+    "P01-interlock": "40 · 100 %"
+   }
+  },
+  {
+   "rank": 5,
+   "name": "Kimi K3.1 Pro",
+   "source": "official",
+   "submitted_by": "Hansatic",
+   "link": null,
+   "date": "2026-11-11",
+   "prompt": "standard",
+   "legal": 8,
+   "answered": 8,
+   "placed": 482,
+   "vs_engine": {
+    "w": 0,
+    "t": 4,
+    "l": 16
+   },
+   "cells": {
+    "H01-ldm": "-",
+    "H02-ldm": "-",
+    "H03-ldm": "-",
+    "H04-ldm": "-",
+    "H05-ldm": "-",
+    "H06-ldm": "-",
+    "H07-ldm": "-",
+    "H08-ldm": "52 · 6.12 m",
+    "H09-ldm": "29 · 13.60 m",
+    "H10-ldm": "26 · 12.20 m",
+    "H11-ldm": "-",
+    "H12-ldm": "13 · 11.00 m",
+    "BV1-ldm": "-",
+    "BV2-ldm": "153 · 11.99 m",
+    "BV3-ldm": "-",
+    "BV4-ldm": "145 · 10.87 m",
+    "BV5-ldm": "-",
+    "BV6-ldm": "-",
+    "U01-count": "24 placed",
+    "P01-interlock": "40 · 100 %"
+   }
+  },
+  {
+   "rank": 6,
+   "name": "DeepSeek V4 Pro",
+   "source": "official",
+   "submitted_by": "Hansatic",
+   "link": null,
+   "date": "2026-11-11",
+   "prompt": "standard",
+   "legal": 6,
+   "answered": 6,
+   "placed": 295,
+   "vs_engine": {
+    "w": 0,
+    "t": 2,
+    "l": 18
+   },
+   "cells": {
+    "H01-ldm": "-",
+    "H02-ldm": "-",
+    "H03-ldm": "-",
+    "H04-ldm": "-",
+    "H05-ldm": "-",
+    "H06-ldm": "-",
+    "H07-ldm": "45 · 12.00 m",
+    "H08-ldm": "-",
+    "H09-ldm": "-",
+    "H10-ldm": "26 · 12.20 m",
+    "H11-ldm": "-",
+    "H12-ldm": "13 · 11.70 m",
+    "BV1-ldm": "-",
+    "BV2-ldm": "153 · 12.79 m",
+    "BV3-ldm": "-",
+    "BV4-ldm": "-",
+    "BV5-ldm": "-",
+    "BV6-ldm": "-",
+    "U01-count": "18 placed",
+    "P01-interlock": "40 · 100 %"
+   }
+  },
+  {
+   "rank": 7,
+   "name": "Gemini 4 Argon",
+   "source": "official",
+   "submitted_by": "Hansatic",
+   "link": null,
+   "date": "2026-11-11",
+   "prompt": "standard",
+   "legal": 4,
+   "answered": 20,
+   "placed": 86,
+   "vs_engine": {
+    "w": 0,
+    "t": 2,
+    "l": 18
+   },
+   "cells": {
+    "H01-ldm": "illegal",
+    "H02-ldm": "illegal",
+    "H03-ldm": "illegal",
+    "H04-ldm": "illegal",
+    "H05-ldm": "illegal",
+    "H06-ldm": "illegal",
+    "H07-ldm": "illegal",
+    "H08-ldm": "illegal",
+    "H09-ldm": "illegal",
+    "H10-ldm": "26 · 12.60 m",
+    "H11-ldm": "23 · 13.02 m",
+    "H12-ldm": "13 · 11.00 m",
+    "BV1-ldm": "illegal",
+    "BV2-ldm": "illegal",
+    "BV3-ldm": "illegal",
+    "BV4-ldm": "illegal",
+    "BV5-ldm": "illegal",
+    "BV6-ldm": "illegal",
+    "U01-count": "24 placed",
+    "P01-interlock": "illegal"
+   }
+  },
+  {
+   "rank": 8,
+   "name": "Qwen3p8",
+   "source": "official",
+   "submitted_by": "Hansatic",
+   "link": null,
+   "date": "2026-11-11",
+   "prompt": "standard",
+   "legal": 3,
+   "answered": 3,
+   "placed": 90,
+   "vs_engine": {
+    "w": 0,
+    "t": 3,
+    "l": 17
+   },
+   "cells": {
+    "H01-ldm": "-",
+    "H02-ldm": "-",
+    "H03-ldm": "-",
+    "H04-ldm": "-",
+    "H05-ldm": "-",
+    "H06-ldm": "-",
+    "H07-ldm": "-",
+    "H08-ldm": "-",
+    "H09-ldm": "-",
+    "H10-ldm": "26 · 12.20 m",
+    "H11-ldm": "-",
+    "H12-ldm": "-",
+    "BV1-ldm": "-",
+    "BV2-ldm": "-",
+    "BV3-ldm": "-",
+    "BV4-ldm": "-",
+    "BV5-ldm": "-",
+    "BV6-ldm": "-",
+    "U01-count": "24 placed",
+    "P01-interlock": "40 · 100 %"
+   }
+  },
+  {
+   "rank": 9,
+   "name": "Magistral Medium",
+   "source": "official",
+   "submitted_by": "Hansatic",
+   "link": null,
+   "date": "2026-11-11",
+   "prompt": "standard",
+   "legal": 2,
+   "answered": 19,
+   "placed": 37,
+   "vs_engine": {
+    "w": 0,
+    "t": 0,
+    "l": 20
+   },
+   "cells": {
+    "H01-ldm": "illegal",
+    "H02-ldm": "illegal",
+    "H03-ldm": "-",
+    "H04-ldm": "illegal",
+    "H05-ldm": "illegal",
+    "H06-ldm": "illegal",
+    "H07-ldm": "illegal",
+    "H08-ldm": "illegal",
+    "H09-ldm": "illegal",
+    "H10-ldm": "26 · 13.00 m",
+    "H11-ldm": "illegal",
+    "H12-ldm": "illegal",
+    "BV1-ldm": "illegal",
+    "BV2-ldm": "illegal",
+    "BV3-ldm": "illegal",
+    "BV4-ldm": "11 · 10.33 m",
+    "BV5-ldm": "illegal",
+    "BV6-ldm": "illegal",
+    "U01-count": "illegal",
+    "P01-interlock": "illegal"
+   }
+  }
+ ]
+}
