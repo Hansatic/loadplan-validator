@@ -10,7 +10,7 @@
   "bin": { "loadplan-validate": "bin/cli.mjs" },
   "files": ["validate.mjs", "bin/", "README.md", "LICENSE.md"],
   "scripts": {
-    "test": "node test/fixtures.mjs && node verify-r10.mjs"
+    "test": "node test/fixtures.mjs && node verify-r10.mjs && node leaderboard.mjs --check"
   },
   "engines": { "node": ">=18" },
   "homepage": "https://hansatic.com/en/neuro-symbolic-load-planning"
