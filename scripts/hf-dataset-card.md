@@ -34,7 +34,8 @@ Can a language model plan how cargo goes into a container, a truck, an air ULD o
 
 LoadBench r10 is 20 real customer cases (26 scored runs) from the Hansatic load planner, the exact prompts every model received, and every answer that was scored: eight frontier language models and the Hansatic packing engine. Each answer is a list of box placements, judged by one open validator that checks geometry, support, stacking limits, weight and loading doctrine.
 
-- **Validator and leaderboard:** [github.com/Hansatic/loadplan-validator](https://github.com/Hansatic/loadplan-validator) (validator {{VERSION}})
+- **Leaderboard:** [hansatic/loadbench-leaderboard](https://huggingface.co/spaces/hansatic/loadbench-leaderboard)
+- **Validator and submissions:** [github.com/Hansatic/loadplan-validator](https://github.com/Hansatic/loadplan-validator) (validator {{VERSION}})
 - **Write-up and paper:** [hansatic.com/en/neuro-symbolic-load-planning](https://hansatic.com/en/neuro-symbolic-load-planning)
 
 ## Configs
